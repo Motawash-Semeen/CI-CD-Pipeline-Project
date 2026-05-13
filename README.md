@@ -40,7 +40,6 @@ A **self-hosted runner** is a machine that you own, configure, and manage to exe
 
 In this project, a runner named **`CI-CD-RUNNER`** is registered on a Windows x64 machine (v2.334.0). It listens continuously and picks up jobs the moment a push to `development` is detected.
 
-> **Screenshot:** `screenshots/self-hosted-runner.png`
 
 ---
 
@@ -113,7 +112,7 @@ jobs:
 
 The screenshot below shows the GitHub Actions dashboard where the pipeline successfully completed all steps — Checkout, Setup Node, Install, Build, and Verify.
 
-> **Screenshot:** `screenshots/Screenshot_2.png`
+> **Screenshot:** ![Alt Text](./screenshots/Screenshot_2.png)
 
 ---
 
@@ -127,7 +126,7 @@ npm error Missing script: "test"
 
 The screenshot below shows the failed run and the exact error visible in the GitHub Actions log — demonstrating how failures are identified and debugged.
 
-> **Screenshot:** `screenshots/Screenshot_3.png`
+> **Screenshot:** ![Alt Text](./screenshots/Screenshot_3.png)
 
 
 ---
@@ -136,7 +135,7 @@ The screenshot below shows the failed run and the exact error visible in the Git
 
 The screenshot below confirms that the application is successfully deployed and accessible via the browser.
 
-> **Screenshot:** `screenshots/Screenshot_4.png`
+> **Screenshot:** ![Alt Text](./screenshots/Screenshot_4.png)
 
 ---
 
