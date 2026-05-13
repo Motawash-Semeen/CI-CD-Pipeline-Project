@@ -28,3 +28,6 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# Self-hosted runner binaries and credentials (never commit these)
+actions-runner/
