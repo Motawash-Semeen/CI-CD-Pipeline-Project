@@ -113,7 +113,7 @@ jobs:
 
 The screenshot below shows the GitHub Actions dashboard where the pipeline successfully completed all steps — Checkout, Setup Node, Install, Build, and Verify.
 
-> **Screenshot:** `screenshots/success-pipeline.png`
+> **Screenshot:** `screenshots/Screenshot_2.png`
 
 ---
 
@@ -127,22 +127,16 @@ npm error Missing script: "test"
 
 The screenshot below shows the failed run and the exact error visible in the GitHub Actions log — demonstrating how failures are identified and debugged.
 
-> **Screenshot:** `screenshots/failed-pipeline.png`
+> **Screenshot:** `screenshots/Screenshot_3.png`
+
 
 ---
 
-### 3. Self-hosted Runner Executing a Job
+### 3. Application Running in Browser
 
-The screenshot below shows the runner terminal confirming it connected to GitHub and picked up the job:
+The screenshot below confirms that the application is successfully deployed and accessible via the browser.
 
-```
-√ Connected to GitHub
-Current runner version: '2.334.0'
-Listening for Jobs
-Running job: Install & Build
-```
-
-> **Screenshot:** `screenshots/runner-executing.png`
+> **Screenshot:** `screenshots/Screenshot_4.png`
 
 ---
 
